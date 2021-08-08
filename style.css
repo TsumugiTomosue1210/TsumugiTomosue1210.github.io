@@ -1,14 +1,6 @@
-h1 {
-    color:#f1bbba;
-    background-color:#a79c8e;
-}
-body {
-    background-color:#f8ecc9;
-}
-.header li {
-    list-style:none;
-    padding:20px 30px 20px 30px;
-}
-ul {
-    display:flex;
+.x {
+    font-size:100px;
+    color:#33272a;
+    text-align: center;
+
 }

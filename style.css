@@ -1,7 +1,22 @@
 .x {
+    position: relative;
+}
+
+.x h1 {
     font-size: 100px;
     color: #33272a;
-    text-align :center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+}
+
+.x img {
+    width: 100%;
 }
 
 body {
@@ -15,10 +30,15 @@ body {
 
 .footer ul {
     /*ulの並びが横にならない...*/
-    text-align: right;
+    display: flex;
     list-style: none;
+    text-align: center;
 }
 
+.footer li {
+    padding:20px 30px 20px 30px;
+    list-style: none;
+}
 .a h3 {
     font-size: 30px;
     text-align: center;
@@ -58,7 +78,5 @@ body {
 .d {
     text-align: center;
 }
-
-/*全部の画像をもっと小さくしたい...*/
 
 /* <div class="x">の　◯◯高校体育祭　の背景に写真を入れたい！ */

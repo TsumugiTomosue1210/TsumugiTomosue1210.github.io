@@ -1,6 +1,64 @@
 .x {
-    font-size:100px;
-    color:#33272a;
-    text-align: center;
-
+    font-size: 100px;
+    color: #33272a;
+    text-align :center;
 }
+
+body {
+    background-color: #ffc6c7;
+}
+
+.footer h2 {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.footer ul {
+    /*ulの並びが横にならない...*/
+    text-align: right;
+    list-style: none;
+}
+
+.a h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.a p {
+    text-align: center;
+}
+
+.a {
+    text-align: center;
+}
+
+.b h3 {
+    padding-top: 130px;
+    font-size: 40px;
+}
+
+.b {
+    text-align: center;
+}
+
+.c h3 {
+    padding-top: 130px;
+    font-size: 40px;
+}
+
+.c {
+    text-align: center;
+}
+
+.d h3 {
+    margin-top: 130px;
+    font-size: 40px;
+}
+
+.d {
+    text-align: center;
+}
+
+/*全部の画像をもっと小さくしたい...*/
+
+/* <div class="x">の　◯◯高校体育祭　の背景に写真を入れたい！ */
